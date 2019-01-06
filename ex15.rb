@@ -22,9 +22,10 @@ txt_again = open(file_again)
 print txt_again.read
 
 # Study Drill #7: call "close()", because it is important to close files when you are done with them
-# txt = close(txt)
-# txt_again close(txt_again)
-# But I don't know how lol........
+txt.close
+txt_again.close
+# But I don't know how lol........ answer below:
+# Don't write "close(txt)" but "txt.close"
 
 # WHEN DOING CODE IN THE TERMINAL
 # The filename should be in quotations as it is technically a string i.e. > txt = open("ex15_sample.txt")
